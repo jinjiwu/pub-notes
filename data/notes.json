@@ -1,0 +1,2372 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1698572855787,
+      "created": 1698572855787,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "3w8ufj0ddqin6wp485hfdsg": {
+      "fname": "pub",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1698572854809,
+      "created": 1698572854809,
+      "id": "3w8ufj0ddqin6wp485hfdsg",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "9rgzbgkb65netbhrh58dxnz",
+        "hhz8q9pblj7dmva0w1jijb8"
+      ],
+      "parent": null,
+      "data": {},
+      "title": "Pub",
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      }
+    },
+    "hhz8q9pblj7dmva0w1jijb8": {
+      "fname": "pub.doctor",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1698572854812,
+      "created": 1698572854812,
+      "id": "hhz8q9pblj7dmva0w1jijb8",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "t4n31hepmpw2zrggkssnega",
+        "wqufyayjqxum0qzydce4kti",
+        "skbhp29pbdk24509du459z4",
+        "xg7qa72kkuq1elnh2ewtsqv",
+        "j7tqeeapapgd6hppaq1fg1j",
+        "23guxtui1tmgknx7ea3qh65"
+      ],
+      "parent": "3w8ufj0ddqin6wp485hfdsg",
+      "data": {},
+      "title": "Doctor"
+    },
+    "23guxtui1tmgknx7ea3qh65": {
+      "id": "23guxtui1tmgknx7ea3qh65",
+      "title": "Writing",
+      "desc": "",
+      "updated": 1685657865587,
+      "created": 1685617335573,
+      "custom": {},
+      "fname": "pub.doctor.writing",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "789076fae7c40b3a8353618a334e7ac1",
+      "links": [],
+      "anchors": {
+        "en": {
+          "type": "header",
+          "text": "En",
+          "value": "en",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "example": {
+          "type": "header",
+          "text": "Example",
+          "value": "example",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "logic": {
+          "type": "header",
+          "text": "Logic",
+          "value": "logic",
+          "line": 27,
+          "column": 0,
+          "depth": 2
+        },
+        "zh": {
+          "type": "header",
+          "text": "Zh",
+          "value": "zh",
+          "line": 32,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "hhz8q9pblj7dmva0w1jijb8",
+      "data": {}
+    },
+    "j7tqeeapapgd6hppaq1fg1j": {
+      "id": "j7tqeeapapgd6hppaq1fg1j",
+      "title": "SLAM",
+      "desc": "",
+      "updated": 1686689560244,
+      "created": 1679737893248,
+      "custom": {},
+      "fname": "pub.doctor.slam",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "c29cbc316a98c8e3a9a4cb9e371538e1",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "mkc8quvd22o2r348z4cn6uo",
+        "1u6xftftee3pqitwfqhu6so",
+        "ij1bcsydrxj9siy5ra68zkf",
+        "948bp243pizxum99x3gqy46",
+        "wk53ujpe8mnudzyumw03318",
+        "4aathyit6ngqct38phpftc6",
+        "bb4x1kolw3pxntlwpoynkim"
+      ],
+      "parent": "hhz8q9pblj7dmva0w1jijb8",
+      "data": {}
+    },
+    "bb4x1kolw3pxntlwpoynkim": {
+      "id": "bb4x1kolw3pxntlwpoynkim",
+      "title": "(TRO 2018)VINS-mono",
+      "desc": "",
+      "updated": 1687865545451,
+      "created": 1687251617470,
+      "custom": {},
+      "fname": "pub.doctor.slam.VINS-mono",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "fc1c88c793b35a42d4235717df7bab75",
+      "links": [],
+      "anchors": {
+        "overview": {
+          "type": "header",
+          "text": "Overview",
+          "value": "overview",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "measurement-preprocessing": {
+          "type": "header",
+          "text": "Measurement Preprocessing",
+          "value": "measurement-preprocessing",
+          "line": 17,
+          "column": 0,
+          "depth": 3
+        },
+        "estimator-initialization": {
+          "type": "header",
+          "text": "Estimator Initialization",
+          "value": "estimator-initialization",
+          "line": 32,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "j7tqeeapapgd6hppaq1fg1j",
+      "data": {}
+    },
+    "4aathyit6ngqct38phpftc6": {
+      "id": "4aathyit6ngqct38phpftc6",
+      "title": "(ICRA 2021)Towards Real-time Semantic RGB-D SLAM in Dynamic Environments",
+      "desc": "",
+      "updated": 1686674911973,
+      "created": 1686674876732,
+      "custom": {},
+      "fname": "pub.doctor.slam.Towards Real-time Semantic RGB-D SLAM in Dynamic Environments",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "23ea9f65f626cff2a6915a979a019222",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "j7tqeeapapgd6hppaq1fg1j",
+      "data": {}
+    },
+    "wk53ujpe8mnudzyumw03318": {
+      "id": "wk53ujpe8mnudzyumw03318",
+      "title": "SobolevFusio",
+      "desc": "",
+      "updated": 1688762654225,
+      "created": 1688762651113,
+      "custom": {},
+      "fname": "pub.doctor.slam.SobolevFusion",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "220f77666173a0645cdde62a1eae4b4a",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "j7tqeeapapgd6hppaq1fg1j",
+      "data": {}
+    },
+    "948bp243pizxum99x3gqy46": {
+      "id": "948bp243pizxum99x3gqy46",
+      "title": "(arXiv 2023)RGB-D-Inertial SLAM in Indoor Dynamic Environments with Long-term LargeOcclusion",
+      "desc": "",
+      "updated": 1686675058297,
+      "created": 1686675020840,
+      "custom": {},
+      "fname": "pub.doctor.slam.RGB-D-Inertial SLAM in Indoor Dynamic Environments with Long-term Large Occlusion",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "5243d167f71ef3fa7dd639b5fc38a1d9",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "j7tqeeapapgd6hppaq1fg1j",
+      "data": {}
+    },
+    "ij1bcsydrxj9siy5ra68zkf": {
+      "id": "ij1bcsydrxj9siy5ra68zkf",
+      "title": "(ICRA 2022)Flow Supervised Neural Radiance Fields for Static-Dynamic Decomposition",
+      "desc": "",
+      "updated": 1686674975370,
+      "created": 1686674963412,
+      "custom": {},
+      "fname": "pub.doctor.slam.Flow Supervised Neural Radiance Fields for Static-Dynamic Decomposition",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "18ab12f61895020e908d2728f106a253",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "j7tqeeapapgd6hppaq1fg1j",
+      "data": {}
+    },
+    "1u6xftftee3pqitwfqhu6so": {
+      "id": "1u6xftftee3pqitwfqhu6so",
+      "title": "(ICRA 2021)DroidSLAM",
+      "desc": "",
+      "updated": 1686674854003,
+      "created": 1686674840932,
+      "custom": {},
+      "fname": "pub.doctor.slam.DroidSLAM",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "6675b62920f14a7d1fbbd56ed2207a22",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "j7tqeeapapgd6hppaq1fg1j",
+      "data": {}
+    },
+    "mkc8quvd22o2r348z4cn6uo": {
+      "id": "mkc8quvd22o2r348z4cn6uo",
+      "title": "(arXiv 2023)Deflow",
+      "desc": "",
+      "updated": 1686675113147,
+      "created": 1686675081117,
+      "custom": {},
+      "fname": "pub.doctor.slam.Deflow",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "3692f62fca4f85b3eccb4f429ed015b5",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "j7tqeeapapgd6hppaq1fg1j",
+      "data": {}
+    },
+    "xg7qa72kkuq1elnh2ewtsqv": {
+      "id": "xg7qa72kkuq1elnh2ewtsqv",
+      "title": "Review",
+      "desc": "",
+      "updated": 1692878050516,
+      "created": 1677676839702,
+      "custom": {},
+      "fname": "pub.doctor.review",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "0822fd3e0428840cbb5746c53cb3dff6",
+      "links": [],
+      "anchors": {
+        "论文整理": {
+          "type": "header",
+          "text": "论文整理",
+          "value": "论文整理",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "传统方法": {
+          "type": "header",
+          "text": "传统方法",
+          "value": "传统方法",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "深度学习": {
+          "type": "header",
+          "text": "深度学习",
+          "value": "深度学习",
+          "line": 24,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "hhz8q9pblj7dmva0w1jijb8",
+      "data": {}
+    },
+    "skbhp29pbdk24509du459z4": {
+      "id": "skbhp29pbdk24509du459z4",
+      "title": "Nerf",
+      "desc": "",
+      "updated": 1692441498888,
+      "created": 1678983133205,
+      "custom": {},
+      "fname": "pub.doctor.nerf",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "226ab2e1c1292eff10e66f705b83fe82",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "2s47zs12qkxyi811jxngpkg",
+        "pqva7enkkoyibjt5hu0ck5d",
+        "nk3svrsxa5p3t7b9735vi0p",
+        "kqeibw6dou04i23gpq0a6xz",
+        "xtf93mj87c4qtxiwhy0n05s",
+        "a62aqbfjz554c4m7d1q6uqh",
+        "4z2cgx4saipiowzsb9mppb0",
+        "fc90yspviljvmpn2g0cm3pg",
+        "9ks5kdmqk1x9qa1hbjjlvki",
+        "pxuerg9795rt9xrw9mx316m",
+        "l0bigdv7likf6shofetyp3x",
+        "4dcgqbu9noci3sop0jp1oow",
+        "fotztbzev0ihniie0tinw0i",
+        "mpbpv7gcvdoj6p6pvkj7ssk",
+        "1qz9y5kpfbj6v4jkjtql1r4",
+        "3k3t775l4vkkkfkoi2l7gqv",
+        "a4b2n4a87dvx6f4o1ffs6ou",
+        "3krdcxaac34zq2bxe0sgs8s",
+        "1iheu3srvfgb8rzfeqnn0mo",
+        "60dx3g7g8bkl9m078xuvg2z",
+        "2v8vhzl2tt0ufr39z47qpea",
+        "vb7zjwcpb9q5o909fn5bqs8",
+        "edqeb5cnhi0d73qsrwxnbe3",
+        "7vmgfpo3ix8g6rcvrzefrjk"
+      ],
+      "parent": "hhz8q9pblj7dmva0w1jijb8",
+      "data": {}
+    },
+    "7vmgfpo3ix8g6rcvrzefrjk": {
+      "id": "7vmgfpo3ix8g6rcvrzefrjk",
+      "title": "(CVPR 2023)vMap",
+      "desc": "",
+      "updated": 1686674028273,
+      "created": 1686673949856,
+      "custom": {},
+      "fname": "pub.doctor.nerf.vMap",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "a324b5aab3b99e2ecadb3a82b5d4b99a",
+      "links": [],
+      "anchors": {
+        "创新点": {
+          "type": "header",
+          "text": "创新点",
+          "value": "创新点",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "方法": {
+          "type": "header",
+          "text": "方法",
+          "value": "方法",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "实现": {
+          "type": "header",
+          "text": "实现",
+          "value": "实现",
+          "line": 32,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "edqeb5cnhi0d73qsrwxnbe3": {
+      "id": "edqeb5cnhi0d73qsrwxnbe3",
+      "title": "(RSS 2022)iSDF",
+      "desc": "",
+      "updated": 1686673867294,
+      "created": 1686673838593,
+      "custom": {},
+      "fname": "pub.doctor.nerf.iSDF",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "abedd07120adde3a0f0907c844c57bf1",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "vb7zjwcpb9q5o909fn5bqs8": {
+      "id": "vb7zjwcpb9q5o909fn5bqs8",
+      "title": "(CVPR 2021)iMAP",
+      "desc": "",
+      "updated": 1686672223205,
+      "created": 1686672120214,
+      "custom": {},
+      "fname": "pub.doctor.nerf.iMAP",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "da2edccfd72ea8358b9d299d2db61cb6",
+      "links": [
+        {
+          "from": {
+            "fname": "pub.doctor.nerf.Co-SLAM",
+            "id": "nk3svrsxa5p3t7b9735vi0p",
+            "vaultName": "notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 1,
+              "offset": 1
+            },
+            "end": {
+              "line": 2,
+              "column": 41,
+              "offset": 41
+            },
+            "indent": []
+          },
+          "value": "pub.doctor.nerf.iMAP"
+        },
+        {
+          "from": {
+            "fname": "pub.doctor.nerf.Nice-SLAM",
+            "id": "a4b2n4a87dvx6f4o1ffs6ou",
+            "vaultName": "notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 41,
+              "offset": 40
+            },
+            "indent": []
+          },
+          "value": "pub.doctor.nerf.iMAP"
+        }
+      ],
+      "anchors": {
+        "创新点": {
+          "type": "header",
+          "text": "创新点",
+          "value": "创新点",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "2v8vhzl2tt0ufr39z47qpea": {
+      "id": "2v8vhzl2tt0ufr39z47qpea",
+      "title": "(ISMAR 2022)Vox-Fusion",
+      "desc": "",
+      "updated": 1688550233246,
+      "created": 1686670903162,
+      "custom": {},
+      "fname": "pub.doctor.nerf.Vox-Fusion",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "d7174fdc9db277abccc2dcb6f53c4aaf",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "pub.doctor.nerf.Vox-Fusion",
+            "id": "2v8vhzl2tt0ufr39z47qpea",
+            "vaultName": "notes"
+          },
+          "value": "pub.doctor.nerf.Nice-SLAM",
+          "alias": "(CVPR 2022)Nice-SLAM",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 1,
+              "offset": 1
+            },
+            "end": {
+              "line": 2,
+              "column": 51,
+              "offset": 51
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "pub.doctor.nerf.Nice-SLAM"
+          }
+        },
+        {
+          "from": {
+            "fname": "doctor.nerf.dslam",
+            "id": "ulby0w8lyjh96ew8q7pzkis",
+            "vaultName": "notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 45,
+              "column": 1,
+              "offset": 663
+            },
+            "end": {
+              "line": 45,
+              "column": 54,
+              "offset": 716
+            },
+            "indent": []
+          },
+          "value": "pub.doctor.nerf.Vox-Fusion"
+        }
+      ],
+      "anchors": {
+        "创新点": {
+          "type": "header",
+          "text": "创新点",
+          "value": "创新点",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "不足": {
+          "type": "header",
+          "text": "不足",
+          "value": "不足",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "方法": {
+          "type": "header",
+          "text": "方法",
+          "value": "方法",
+          "line": 21,
+          "column": 0,
+          "depth": 2
+        },
+        "网络结构": {
+          "type": "header",
+          "text": "网络结构",
+          "value": "网络结构",
+          "line": 22,
+          "column": 0,
+          "depth": 3
+        },
+        "渲染方程": {
+          "type": "header",
+          "text": "渲染方程",
+          "value": "渲染方程",
+          "line": 26,
+          "column": 0,
+          "depth": 3
+        },
+        "损失函数": {
+          "type": "header",
+          "text": "损失函数",
+          "value": "损失函数",
+          "line": 37,
+          "column": 0,
+          "depth": 3
+        },
+        "改进优点": {
+          "type": "header",
+          "text": "改进优点",
+          "value": "改进优点",
+          "line": 48,
+          "column": 0,
+          "depth": 2
+        },
+        "改进算法": {
+          "type": "header",
+          "text": "改进算法",
+          "value": "改进算法",
+          "line": 56,
+          "column": 0,
+          "depth": 2
+        },
+        "^2": {
+          "type": "block",
+          "value": "2",
+          "line": 44,
+          "column": 100
+        }
+      },
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "60dx3g7g8bkl9m078xuvg2z": {
+      "id": "60dx3g7g8bkl9m078xuvg2z",
+      "title": "(CVPR 2023)RoDynRF",
+      "desc": "",
+      "updated": 1686675898739,
+      "created": 1686673223650,
+      "custom": {},
+      "fname": "pub.doctor.nerf.RoDynRF",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "871de0c0fb4b3b679759226092d15ef6",
+      "links": [],
+      "anchors": {
+        "method": {
+          "type": "header",
+          "text": "Method",
+          "value": "method",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "静态重建和相机位姿估计": {
+          "type": "header",
+          "text": "静态重建和相机位姿估计",
+          "value": "静态重建和相机位姿估计",
+          "line": 19,
+          "column": 0,
+          "depth": 3
+        },
+        "动态nerf": {
+          "type": "header",
+          "text": "动态nerf",
+          "value": "动态nerf",
+          "line": 33,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "1iheu3srvfgb8rzfeqnn0mo": {
+      "id": "1iheu3srvfgb8rzfeqnn0mo",
+      "title": "Point-SLAM",
+      "desc": "",
+      "updated": 1688988982484,
+      "created": 1688987933615,
+      "custom": {},
+      "fname": "pub.doctor.nerf.Point-SLAM",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "ed3de2d0f02dc5d4aa08a184775c56bb",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "3krdcxaac34zq2bxe0sgs8s": {
+      "id": "3krdcxaac34zq2bxe0sgs8s",
+      "title": "(CVPR 2022 Oral)Point-NeRF",
+      "desc": "",
+      "updated": 1692177424947,
+      "created": 1692177393587,
+      "custom": {},
+      "fname": "pub.doctor.nerf.Point-NeRF",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "1b18991781dd6b599b2eea73ca9da194",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "a4b2n4a87dvx6f4o1ffs6ou": {
+      "id": "a4b2n4a87dvx6f4o1ffs6ou",
+      "title": "(CVPR 2022)Nice-SLAM",
+      "desc": "",
+      "updated": 1686672282400,
+      "created": 1686671880202,
+      "custom": {},
+      "fname": "pub.doctor.nerf.Nice-SLAM",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "68319d1e82e624061e938783e20eee92",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "pub.doctor.nerf.Nice-SLAM",
+            "id": "a4b2n4a87dvx6f4o1ffs6ou",
+            "vaultName": "notes"
+          },
+          "value": "pub.doctor.nerf.iMAP",
+          "alias": "(CVPR 2021)iMAP",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 41,
+              "offset": 40
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "pub.doctor.nerf.iMAP"
+          }
+        },
+        {
+          "from": {
+            "fname": "pub.doctor.nerf.Co-SLAM",
+            "id": "nk3svrsxa5p3t7b9735vi0p",
+            "vaultName": "notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 1,
+              "offset": 43
+            },
+            "end": {
+              "line": 4,
+              "column": 51,
+              "offset": 93
+            },
+            "indent": []
+          },
+          "value": "pub.doctor.nerf.Nice-SLAM"
+        },
+        {
+          "from": {
+            "fname": "pub.doctor.nerf.Vox-Fusion",
+            "id": "2v8vhzl2tt0ufr39z47qpea",
+            "vaultName": "notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 1,
+              "offset": 1
+            },
+            "end": {
+              "line": 2,
+              "column": 51,
+              "offset": 51
+            },
+            "indent": []
+          },
+          "value": "pub.doctor.nerf.Nice-SLAM"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "3k3t775l4vkkkfkoi2l7gqv": {
+      "id": "3k3t775l4vkkkfkoi2l7gqv",
+      "title": "(NeurIPS 2021)Neus",
+      "desc": "",
+      "updated": 1692007471712,
+      "created": 1686674584972,
+      "custom": {},
+      "fname": "pub.doctor.nerf.Neus",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "4848913bc190bf53ea38426fcb4b0e24",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "1qz9y5kpfbj6v4jkjtql1r4": {
+      "id": "1qz9y5kpfbj6v4jkjtql1r4",
+      "title": "(CVPR 2022)Neural rgb-d surface reconstruction",
+      "desc": "",
+      "updated": 1686674318475,
+      "created": 1686674229905,
+      "custom": {},
+      "fname": "pub.doctor.nerf.Neural rgb-d surface reconstruction",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "e1df2f92144c793f2d327488b89053b1",
+      "links": [],
+      "anchors": {
+        "创新点": {
+          "type": "header",
+          "text": "创新点",
+          "value": "创新点",
+          "line": 12,
+          "column": 0,
+          "depth": 3
+        },
+        "方法": {
+          "type": "header",
+          "text": "方法",
+          "value": "方法",
+          "line": 23,
+          "column": 0,
+          "depth": 3
+        },
+        "损失函数": {
+          "type": "header",
+          "text": "损失函数",
+          "value": "损失函数",
+          "line": 39,
+          "column": 0,
+          "depth": 3
+        },
+        "^2": {
+          "type": "block",
+          "value": "2",
+          "line": 47,
+          "column": 119
+        }
+      },
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "mpbpv7gcvdoj6p6pvkj7ssk": {
+      "id": "mpbpv7gcvdoj6p6pvkj7ssk",
+      "title": "(CVPR 2021)Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes",
+      "desc": "",
+      "updated": 1686674743686,
+      "created": 1686674684809,
+      "custom": {},
+      "fname": "pub.doctor.nerf.Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "ebaca3bc3edcbe25b22fab0d0217e8b4",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "fotztbzev0ihniie0tinw0i": {
+      "id": "fotztbzev0ihniie0tinw0i",
+      "title": "(TOG 2019)Neural Importance Sampling",
+      "desc": "",
+      "updated": 1688482319628,
+      "created": 1686673672904,
+      "custom": {},
+      "fname": "pub.doctor.nerf.Neural Importance Sampling",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "8bdae848e620fab2c7f0e78e41676b6d",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "4dcgqbu9noci3sop0jp1oow": {
+      "id": "4dcgqbu9noci3sop0jp1oow",
+      "title": "(NeurIPS 2021)NSVF",
+      "desc": "",
+      "updated": 1686674556508,
+      "created": 1686674537173,
+      "custom": {},
+      "fname": "pub.doctor.nerf.NSVF",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "40e52a31cf019531af2a40ab67986534",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "l0bigdv7likf6shofetyp3x": {
+      "id": "l0bigdv7likf6shofetyp3x",
+      "title": "(ICCV 2021)Mip-NeRF",
+      "desc": "",
+      "updated": 1689002124445,
+      "created": 1689002080437,
+      "custom": {},
+      "fname": "pub.doctor.nerf.Mip-NeRF",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "e463a4550e9a1ae6097611190423aa41",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "pxuerg9795rt9xrw9mx316m": {
+      "id": "pxuerg9795rt9xrw9mx316m",
+      "title": "(arXiv 2023)MIPS-Fusion",
+      "desc": "",
+      "updated": 1693531007277,
+      "created": 1693530993241,
+      "custom": {},
+      "fname": "pub.doctor.nerf.MIPS-Fusion",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "7782e323e5cebef8675626dc54ef9157",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "9ks5kdmqk1x9qa1hbjjlvki": {
+      "id": "9ks5kdmqk1x9qa1hbjjlvki",
+      "title": "(TOG 2022)LaplacianFusion",
+      "desc": "",
+      "updated": 1693530967451,
+      "created": 1693530953595,
+      "custom": {},
+      "fname": "pub.doctor.nerf.LaplacianFusion",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "d6ac3b8c6cd4c85cb588a02cf6241d0f",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "fc90yspviljvmpn2g0cm3pg": {
+      "id": "fc90yspviljvmpn2g0cm3pg",
+      "title": "(TOG 2022)Instrant-NGP",
+      "desc": "",
+      "updated": 1686673120272,
+      "created": 1686673095846,
+      "custom": {},
+      "fname": "pub.doctor.nerf.Instrant-NGP",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "6e258c620dfb461720b9e176bdc0e5d4",
+      "links": [],
+      "anchors": {
+        "advantages": {
+          "type": "header",
+          "text": "Advantages",
+          "value": "advantages",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "background": {
+          "type": "header",
+          "text": "Background",
+          "value": "background",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "method": {
+          "type": "header",
+          "text": "Method",
+          "value": "method",
+          "line": 36,
+          "column": 0,
+          "depth": 2
+        },
+        "accelerated-nerf-ray-marching": {
+          "type": "header",
+          "text": "Accelerated NERF Ray Marching",
+          "value": "accelerated-nerf-ray-marching",
+          "line": 42,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "4z2cgx4saipiowzsb9mppb0": {
+      "id": "4z2cgx4saipiowzsb9mppb0",
+      "title": "(arXiv 2023)H2-Mapping",
+      "desc": "",
+      "updated": 1692013010953,
+      "created": 1692009275363,
+      "custom": {},
+      "fname": "pub.doctor.nerf.H2-Mapping",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "623e459a552bbaac86c124af9d749ccf",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "a62aqbfjz554c4m7d1q6uqh": {
+      "id": "a62aqbfjz554c4m7d1q6uqh",
+      "title": "(arXiv 2023)Factored NeRF",
+      "desc": "",
+      "updated": 1689801304841,
+      "created": 1689194523167,
+      "custom": {},
+      "fname": "pub.doctor.nerf.Factored NeRF",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "31bbebe3af2f70a1e8e5608e70f53353",
+      "links": [],
+      "anchors": {
+        "overview": {
+          "type": "header",
+          "text": "Overview",
+          "value": "overview",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "contributions": {
+          "type": "header",
+          "text": "Contributions",
+          "value": "contributions",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "method": {
+          "type": "header",
+          "text": "Method",
+          "value": "method",
+          "line": 16,
+          "column": 0,
+          "depth": 2
+        },
+        "initializations": {
+          "type": "header",
+          "text": "Initializations",
+          "value": "initializations",
+          "line": 20,
+          "column": 0,
+          "depth": 3
+        },
+        "joint-optimization": {
+          "type": "header",
+          "text": "Joint optimization",
+          "value": "joint-optimization",
+          "line": 28,
+          "column": 0,
+          "depth": 3
+        },
+        "free-space-loss": {
+          "type": "header",
+          "text": "Free Space Loss",
+          "value": "free-space-loss",
+          "line": 31,
+          "column": 0,
+          "depth": 4
+        },
+        "non-rigid-deformation": {
+          "type": "header",
+          "text": "Non-rigid deformation",
+          "value": "non-rigid-deformation",
+          "line": 40,
+          "column": 0,
+          "depth": 4
+        }
+      },
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "xtf93mj87c4qtxiwhy0n05s": {
+      "id": "xtf93mj87c4qtxiwhy0n05s",
+      "title": "(arXiv 2023)ESLAM",
+      "desc": "",
+      "updated": 1686674132790,
+      "created": 1686674049127,
+      "custom": {},
+      "fname": "pub.doctor.nerf.ESLAM",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "ea4b0ddb7902de3a687776c4a6a93329",
+      "links": [],
+      "anchors": {
+        "采样": {
+          "type": "header",
+          "text": "采样",
+          "value": "采样",
+          "line": 13,
+          "column": 0,
+          "depth": 3
+        },
+        "体渲染": {
+          "type": "header",
+          "text": "体渲染",
+          "value": "体渲染",
+          "line": 19,
+          "column": 0,
+          "depth": 3
+        },
+        "损失函数": {
+          "type": "header",
+          "text": "损失函数",
+          "value": "损失函数",
+          "line": 37,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "kqeibw6dou04i23gpq0a6xz": {
+      "id": "kqeibw6dou04i23gpq0a6xz",
+      "title": "(CVPR 2022)DVGO",
+      "desc": "",
+      "updated": 1687879526302,
+      "created": 1686673744247,
+      "custom": {},
+      "fname": "pub.doctor.nerf.DVGO",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "cc24f920bfbdc99d477f039014568f11",
+      "links": [],
+      "anchors": {
+        "method": {
+          "type": "header",
+          "text": "Method",
+          "value": "method",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "nk3svrsxa5p3t7b9735vi0p": {
+      "id": "nk3svrsxa5p3t7b9735vi0p",
+      "title": "(CVPR 2023)Co-SLAM",
+      "desc": "",
+      "updated": 1687974603415,
+      "created": 1686673364473,
+      "custom": {},
+      "fname": "pub.doctor.nerf.Co-SLAM",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "07763accf9646cc6b8ad2a60f427ef2d",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "pub.doctor.nerf.Co-SLAM",
+            "id": "nk3svrsxa5p3t7b9735vi0p",
+            "vaultName": "notes"
+          },
+          "value": "pub.doctor.nerf.iMAP",
+          "alias": "(CVPR 2021)iMAP",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 1,
+              "offset": 1
+            },
+            "end": {
+              "line": 2,
+              "column": 41,
+              "offset": 41
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "pub.doctor.nerf.iMAP"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "pub.doctor.nerf.Co-SLAM",
+            "id": "nk3svrsxa5p3t7b9735vi0p",
+            "vaultName": "notes"
+          },
+          "value": "pub.doctor.nerf.Nice-SLAM",
+          "alias": "(CVPR 2022)Nice-SLAM",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 1,
+              "offset": 43
+            },
+            "end": {
+              "line": 4,
+              "column": 51,
+              "offset": 93
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "pub.doctor.nerf.Nice-SLAM"
+          }
+        },
+        {
+          "from": {
+            "fname": "doctor.nerf.dslam",
+            "id": "ulby0w8lyjh96ew8q7pzkis",
+            "vaultName": "notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 1,
+              "offset": 12
+            },
+            "end": {
+              "line": 4,
+              "column": 47,
+              "offset": 58
+            },
+            "indent": []
+          },
+          "value": "pub.doctor.nerf.Co-SLAM"
+        }
+      ],
+      "anchors": {
+        "method": {
+          "type": "header",
+          "text": "Method",
+          "value": "method",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "pqva7enkkoyibjt5hu0ck5d": {
+      "id": "pqva7enkkoyibjt5hu0ck5d",
+      "title": "(IROS 2021)BundleTrack",
+      "desc": "",
+      "updated": 1686674515830,
+      "created": 1686674477657,
+      "custom": {},
+      "fname": "pub.doctor.nerf.BundleTrack",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "e5f7d5126d51e6ad495b176acc41fb11",
+      "links": [],
+      "anchors": {
+        "方法": {
+          "type": "header",
+          "text": "方法",
+          "value": "方法",
+          "line": 11,
+          "column": 0,
+          "depth": 2
+        },
+        "mask分割": {
+          "type": "header",
+          "text": "Mask分割",
+          "value": "mask分割",
+          "line": 14,
+          "column": 0,
+          "depth": 3
+        },
+        "关键点检测匹配配准": {
+          "type": "header",
+          "text": "关键点检测/匹配/配准",
+          "value": "关键点检测匹配配准",
+          "line": 18,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "2s47zs12qkxyi811jxngpkg": {
+      "id": "2s47zs12qkxyi811jxngpkg",
+      "title": "(CVPR 2023)BundleSDF",
+      "desc": "",
+      "updated": 1686673019330,
+      "created": 1686672867472,
+      "custom": {},
+      "fname": "pub.doctor.nerf.BundleSDF",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "891965f9b638458b768ce7ba5d45ea56",
+      "links": [],
+      "anchors": {
+        "方法": {
+          "type": "header",
+          "text": "方法",
+          "value": "方法",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "online-pose-graph-optimization": {
+          "type": "header",
+          "text": "Online Pose Graph Optimization",
+          "value": "online-pose-graph-optimization",
+          "line": 14,
+          "column": 0,
+          "depth": 3
+        },
+        "neural-object-field": {
+          "type": "header",
+          "text": "Neural Object Field",
+          "value": "neural-object-field",
+          "line": 44,
+          "column": 0,
+          "depth": 3
+        },
+        "^2": {
+          "type": "block",
+          "value": "2",
+          "line": 96,
+          "column": 112
+        }
+      },
+      "children": [],
+      "parent": "skbhp29pbdk24509du459z4",
+      "data": {}
+    },
+    "wqufyayjqxum0qzydce4kti": {
+      "id": "wqufyayjqxum0qzydce4kti",
+      "title": "Math",
+      "desc": "",
+      "updated": 1688641356450,
+      "created": 1678094389093,
+      "custom": {},
+      "fname": "pub.doctor.math",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "dc477e91bc34cc1acdc719f777d46752",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "fcu8fboz5su1737pwjilgy2",
+        "n6dtupelbob3fmye1k7dmdc",
+        "y11h5ehmldz95c69bkfs9wd",
+        "vii2cgr7l8zgh73arppawjj",
+        "0z1szncf8gnkpdsjr7swohe",
+        "p68jmoyvomo20mzcm4h9wdx",
+        "oujer25jxrj7iendw09kk97",
+        "6uwq3kg5mg9cjtykwgq21op"
+      ],
+      "parent": "hhz8q9pblj7dmva0w1jijb8",
+      "data": {}
+    },
+    "6uwq3kg5mg9cjtykwgq21op": {
+      "id": "6uwq3kg5mg9cjtykwgq21op",
+      "title": "Tensor",
+      "desc": "",
+      "updated": 1689415884786,
+      "created": 1689415546805,
+      "custom": {},
+      "fname": "pub.doctor.math.tensor",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "2e5bffbdc85b9d7b98b50bc07761206d",
+      "links": [],
+      "anchors": {
+        "线性空间": {
+          "type": "header",
+          "text": "线性空间",
+          "value": "线性空间",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "对偶空间": {
+          "type": "header",
+          "text": "对偶空间",
+          "value": "对偶空间",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "张量": {
+          "type": "header",
+          "text": "张量",
+          "value": "张量",
+          "line": 16,
+          "column": 0,
+          "depth": 2
+        },
+        "": {
+          "type": "header",
+          "text": "",
+          "value": "",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "wqufyayjqxum0qzydce4kti",
+      "data": {}
+    },
+    "oujer25jxrj7iendw09kk97": {
+      "id": "oujer25jxrj7iendw09kk97",
+      "title": "Sampling",
+      "desc": "",
+      "updated": 1688640996703,
+      "created": 1688640953215,
+      "custom": {},
+      "fname": "pub.doctor.math.sampling",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "20351ad6b9a9477ab18d9d46c38f5b56",
+      "links": [],
+      "anchors": {
+        "inverse-cdf-sampling": {
+          "type": "header",
+          "text": "inverse CDF sampling",
+          "value": "inverse-cdf-sampling",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "rejection-sampling": {
+          "type": "header",
+          "text": "Rejection sampling",
+          "value": "rejection-sampling",
+          "line": 23,
+          "column": 0,
+          "depth": 2
+        },
+        "importance-sampling": {
+          "type": "header",
+          "text": "Importance sampling",
+          "value": "importance-sampling",
+          "line": 27,
+          "column": 0,
+          "depth": 2
+        },
+        "metropolis-hastings-sampling": {
+          "type": "header",
+          "text": "Metropolis-Hastings sampling",
+          "value": "metropolis-hastings-sampling",
+          "line": 29,
+          "column": 0,
+          "depth": 2
+        },
+        "gibbs-sampling": {
+          "type": "header",
+          "text": "Gibbs sampling",
+          "value": "gibbs-sampling",
+          "line": 31,
+          "column": 0,
+          "depth": 2
+        },
+        "mcmc-sampling": {
+          "type": "header",
+          "text": "MCMC sampling",
+          "value": "mcmc-sampling",
+          "line": 34,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "wqufyayjqxum0qzydce4kti",
+      "data": {}
+    },
+    "p68jmoyvomo20mzcm4h9wdx": {
+      "id": "p68jmoyvomo20mzcm4h9wdx",
+      "title": "Reparameterization",
+      "desc": "",
+      "updated": 1688641065189,
+      "created": 1688641048201,
+      "custom": {},
+      "fname": "pub.doctor.math.reparameterization",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "b056828c8ab08714d9d591ebf71017c2",
+      "links": [],
+      "anchors": {
+        "contiguous-latent-variable-in-vae": {
+          "type": "header",
+          "text": "Contiguous latent variable in VAE",
+          "value": "contiguous-latent-variable-in-vae",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "gumbel-softmax-trick": {
+          "type": "header",
+          "text": "Gumbel softmax trick",
+          "value": "gumbel-softmax-trick",
+          "line": 22,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "wqufyayjqxum0qzydce4kti",
+      "data": {}
+    },
+    "0z1szncf8gnkpdsjr7swohe": {
+      "id": "0z1szncf8gnkpdsjr7swohe",
+      "title": "Probability",
+      "desc": "",
+      "updated": 1688641345583,
+      "created": 1688641314629,
+      "custom": {},
+      "fname": "pub.doctor.math.probability",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "bfd6357ca0fb31f93a409fe74686699a",
+      "links": [],
+      "anchors": {
+        "动态贝叶斯网络": {
+          "type": "header",
+          "text": "动态贝叶斯网络",
+          "value": "动态贝叶斯网络",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "因子图": {
+          "type": "header",
+          "text": "因子图",
+          "value": "因子图",
+          "line": 11,
+          "column": 0,
+          "depth": 2
+        },
+        "贝叶斯": {
+          "type": "header",
+          "text": "贝叶斯",
+          "value": "贝叶斯",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "移动概率": {
+          "type": "header",
+          "text": "移动概率",
+          "value": "移动概率",
+          "line": 16,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "wqufyayjqxum0qzydce4kti",
+      "data": {}
+    },
+    "vii2cgr7l8zgh73arppawjj": {
+      "id": "vii2cgr7l8zgh73arppawjj",
+      "title": "Optimation",
+      "desc": "",
+      "updated": 1688641283073,
+      "created": 1688641266220,
+      "custom": {},
+      "fname": "pub.doctor.math.optimation",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "f6a9e98c302dd2ccd310d4f3943a398b",
+      "links": [],
+      "anchors": {
+        "高斯牛顿优化": {
+          "type": "header",
+          "text": "高斯牛顿优化",
+          "value": "高斯牛顿优化",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "wqufyayjqxum0qzydce4kti",
+      "data": {}
+    },
+    "y11h5ehmldz95c69bkfs9wd": {
+      "id": "y11h5ehmldz95c69bkfs9wd",
+      "title": "Neural",
+      "desc": "",
+      "updated": 1698572711345,
+      "created": 1688641209485,
+      "custom": {},
+      "fname": "pub.doctor.math.neural",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "a24699a2d6dfeda5e97d79803856f8cc",
+      "links": [],
+      "anchors": {
+        "sigmoid": {
+          "type": "header",
+          "text": "sigmoid",
+          "value": "sigmoid",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "pytorch": {
+          "type": "header",
+          "text": "PyTorch",
+          "value": "pytorch",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "wqufyayjqxum0qzydce4kti",
+      "data": {}
+    },
+    "n6dtupelbob3fmye1k7dmdc": {
+      "id": "n6dtupelbob3fmye1k7dmdc",
+      "title": "Intersection",
+      "desc": "",
+      "updated": 1688641119367,
+      "created": 1688641112678,
+      "custom": {},
+      "fname": "pub.doctor.math.intersection",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "c5db3f07e10ee2f6f29d8733e26dc5b2",
+      "links": [],
+      "anchors": {
+        "ray-and-aabb": {
+          "type": "header",
+          "text": "Ray and AABB",
+          "value": "ray-and-aabb",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "ray-and-triangle": {
+          "type": "header",
+          "text": "Ray and Triangle",
+          "value": "ray-and-triangle",
+          "line": 11,
+          "column": 0,
+          "depth": 2
+        },
+        "ray-and-sphere": {
+          "type": "header",
+          "text": "Ray and Sphere",
+          "value": "ray-and-sphere",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "wqufyayjqxum0qzydce4kti",
+      "data": {}
+    },
+    "fcu8fboz5su1737pwjilgy2": {
+      "id": "fcu8fboz5su1737pwjilgy2",
+      "title": "Estimation",
+      "desc": "",
+      "updated": 1688641180211,
+      "created": 1688641165270,
+      "custom": {},
+      "fname": "pub.doctor.math.estimation",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "0f0744c7db8f49fc3873ec78439e390a",
+      "links": [],
+      "anchors": {
+        "image": {
+          "type": "header",
+          "text": "Image",
+          "value": "image",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "wqufyayjqxum0qzydce4kti",
+      "data": {}
+    },
+    "t4n31hepmpw2zrggkssnega": {
+      "id": "t4n31hepmpw2zrggkssnega",
+      "title": "English",
+      "desc": "",
+      "updated": 1676954253328,
+      "created": 1676953667569,
+      "custom": {},
+      "fname": "pub.doctor.english",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "c6432e9229a197e16ec7d8e1644faf86",
+      "links": [],
+      "anchors": {
+        "听力": {
+          "type": "header",
+          "text": "听力",
+          "value": "听力",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "hhz8q9pblj7dmva0w1jijb8",
+      "data": {}
+    },
+    "9rgzbgkb65netbhrh58dxnz": {
+      "id": "9rgzbgkb65netbhrh58dxnz",
+      "title": "Tools",
+      "desc": "",
+      "updated": 1686550806730,
+      "created": 1686550803204,
+      "custom": {},
+      "fname": "pub.tools",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "32868f4fa47ca8c011c32be40cdc889d",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "dsmxalv3yb4f42lc30b9sb5",
+        "v24khwxmethglduhhjoofzd"
+      ],
+      "parent": "3w8ufj0ddqin6wp485hfdsg",
+      "data": {}
+    },
+    "v24khwxmethglduhhjoofzd": {
+      "id": "v24khwxmethglduhhjoofzd",
+      "title": "Openai",
+      "desc": "",
+      "updated": 1688575445240,
+      "created": 1688573486516,
+      "custom": {},
+      "fname": "pub.tools.openai",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "278743ee268067e6afc0cd7dd4c8220c",
+      "links": [],
+      "anchors": {
+        "chatgpt-prompt": {
+          "type": "header",
+          "text": "Chatgpt Prompt",
+          "value": "chatgpt-prompt",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "english": {
+          "type": "header",
+          "text": "English",
+          "value": "english",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "translation": {
+          "type": "header",
+          "text": "Translation",
+          "value": "translation",
+          "line": 12,
+          "column": 0,
+          "depth": 3
+        },
+        "improve": {
+          "type": "header",
+          "text": "Improve",
+          "value": "improve",
+          "line": 23,
+          "column": 0,
+          "depth": 3
+        },
+        "utils": {
+          "type": "header",
+          "text": "Utils",
+          "value": "utils",
+          "line": 40,
+          "column": 0,
+          "depth": 2
+        },
+        "act-as-a-prompt-generator": {
+          "type": "header",
+          "text": "Act as a Prompt Generator",
+          "value": "act-as-a-prompt-generator",
+          "line": 42,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "9rgzbgkb65netbhrh58dxnz",
+      "data": {}
+    },
+    "dsmxalv3yb4f42lc30b9sb5": {
+      "id": "dsmxalv3yb4f42lc30b9sb5",
+      "title": "Arch",
+      "desc": "",
+      "updated": 1693615865877,
+      "created": 1676651248084,
+      "custom": {},
+      "fname": "pub.tools.arch",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "b1be26af6c20167d6af0006cf07a0b93",
+      "links": [],
+      "anchors": {
+        "install": {
+          "type": "header",
+          "text": "Install",
+          "value": "install",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "software": {
+          "type": "header",
+          "text": "SoftWare",
+          "value": "software",
+          "line": 13,
+          "column": 0,
+          "depth": 1
+        },
+        "pacman": {
+          "type": "header",
+          "text": "pacman",
+          "value": "pacman",
+          "line": 15,
+          "column": 0,
+          "depth": 2
+        },
+        "yay": {
+          "type": "header",
+          "text": "yay",
+          "value": "yay",
+          "line": 53,
+          "column": 0,
+          "depth": 2
+        },
+        "kde": {
+          "type": "header",
+          "text": "kde",
+          "value": "kde",
+          "line": 57,
+          "column": 0,
+          "depth": 2
+        },
+        "fcitx5": {
+          "type": "header",
+          "text": "fcitx5",
+          "value": "fcitx5",
+          "line": 71,
+          "column": 0,
+          "depth": 2
+        },
+        "ssh": {
+          "type": "header",
+          "text": "ssh",
+          "value": "ssh",
+          "line": 86,
+          "column": 0,
+          "depth": 2
+        },
+        "nvidia": {
+          "type": "header",
+          "text": "nvidia",
+          "value": "nvidia",
+          "line": 100,
+          "column": 0,
+          "depth": 2
+        },
+        "python": {
+          "type": "header",
+          "text": "python",
+          "value": "python",
+          "line": 104,
+          "column": 0,
+          "depth": 2
+        },
+        "anaconda": {
+          "type": "header",
+          "text": "anaconda",
+          "value": "anaconda",
+          "line": 105,
+          "column": 0,
+          "depth": 3
+        },
+        "conda换清华源": {
+          "type": "header",
+          "text": "conda换清华源",
+          "value": "conda换清华源",
+          "line": 110,
+          "column": 0,
+          "depth": 4
+        },
+        "pip换清华源": {
+          "type": "header",
+          "text": "pip换清华源",
+          "value": "pip换清华源",
+          "line": 137,
+          "column": 0,
+          "depth": 4
+        },
+        "cpp": {
+          "type": "header",
+          "text": "cpp",
+          "value": "cpp",
+          "line": 158,
+          "column": 0,
+          "depth": 2
+        },
+        "clang": {
+          "type": "header",
+          "text": "clang",
+          "value": "clang",
+          "line": 159,
+          "column": 0,
+          "depth": 3
+        },
+        "cmake": {
+          "type": "header",
+          "text": "cmake",
+          "value": "cmake",
+          "line": 161,
+          "column": 0,
+          "depth": 3
+        },
+        "g": {
+          "type": "header",
+          "text": "g++",
+          "value": "g",
+          "line": 163,
+          "column": 0,
+          "depth": 3
+        },
+        "cmake-1": {
+          "type": "header",
+          "text": "cmake",
+          "value": "cmake-1",
+          "line": 165,
+          "column": 0,
+          "depth": 3
+        },
+        "htop": {
+          "type": "header",
+          "text": "htop",
+          "value": "htop",
+          "line": 168,
+          "column": 0,
+          "depth": 2
+        },
+        "fish": {
+          "type": "header",
+          "text": "fish",
+          "value": "fish",
+          "line": 172,
+          "column": 0,
+          "depth": 2
+        },
+        "环境变量设置": {
+          "type": "header",
+          "text": "环境变量设置",
+          "value": "环境变量设置",
+          "line": 178,
+          "column": 0,
+          "depth": 3
+        },
+        "命令提示符添加git支持": {
+          "type": "header",
+          "text": "命令提示符添加git支持",
+          "value": "命令提示符添加git支持",
+          "line": 191,
+          "column": 0,
+          "depth": 3
+        },
+        "v2raya": {
+          "type": "header",
+          "text": "v2raya",
+          "value": "v2raya",
+          "line": 230,
+          "column": 0,
+          "depth": 2
+        },
+        "tencent": {
+          "type": "header",
+          "text": "Tencent",
+          "value": "tencent",
+          "line": 236,
+          "column": 0,
+          "depth": 2
+        },
+        "microsoft": {
+          "type": "header",
+          "text": "Microsoft",
+          "value": "microsoft",
+          "line": 266,
+          "column": 0,
+          "depth": 2
+        },
+        "wps": {
+          "type": "header",
+          "text": "wps",
+          "value": "wps",
+          "line": 326,
+          "column": 0,
+          "depth": 2
+        },
+        "zotero": {
+          "type": "header",
+          "text": "zotero",
+          "value": "zotero",
+          "line": 328,
+          "column": 0,
+          "depth": 2
+        },
+        "meshlab": {
+          "type": "header",
+          "text": "meshlab",
+          "value": "meshlab",
+          "line": 341,
+          "column": 0,
+          "depth": 2
+        },
+        "zeno": {
+          "type": "header",
+          "text": "zeno",
+          "value": "zeno",
+          "line": 343,
+          "column": 0,
+          "depth": 2
+        },
+        "code": {
+          "type": "header",
+          "text": "Code",
+          "value": "code",
+          "line": 345,
+          "column": 0,
+          "depth": 1
+        },
+        "word-abbreviation": {
+          "type": "header",
+          "text": "word abbreviation",
+          "value": "word-abbreviation",
+          "line": 347,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "9rgzbgkb65netbhrh58dxnz",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "fname": "pub",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1698572854809,
+      "created": 1698572854809,
+      "id": "3w8ufj0ddqin6wp485hfdsg",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "9rgzbgkb65netbhrh58dxnz",
+        "hhz8q9pblj7dmva0w1jijb8"
+      ],
+      "parent": null,
+      "body": "",
+      "data": {},
+      "title": "Pub",
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      }
+    }
+  ],
+  "noteIndex": {
+    "fname": "pub",
+    "stub": true,
+    "vault": {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "notes"
+    },
+    "schemaStub": false,
+    "type": "note",
+    "updated": 1698572854809,
+    "created": 1698572854809,
+    "id": "3w8ufj0ddqin6wp485hfdsg",
+    "desc": "",
+    "links": [],
+    "anchors": {},
+    "children": [
+      "9rgzbgkb65netbhrh58dxnz",
+      "hhz8q9pblj7dmva0w1jijb8"
+    ],
+    "parent": null,
+    "body": "",
+    "data": {},
+    "title": "Pub",
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    }
+  },
+  "vaults": [
+    {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "notes"
+    }
+  ]
+}

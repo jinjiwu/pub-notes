@@ -1,0 +1,514 @@
+{
+  "roots": [
+    {
+      "key": "3w8ufj0ddqin6wp485hfdsg",
+      "title": "Pub",
+      "icon": "plusOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "notes",
+      "children": [
+        {
+          "key": "hhz8q9pblj7dmva0w1jijb8",
+          "title": "Doctor",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "notes",
+          "children": [
+            {
+              "key": "t4n31hepmpw2zrggkssnega",
+              "title": "English",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "notes",
+              "children": []
+            },
+            {
+              "key": "wqufyayjqxum0qzydce4kti",
+              "title": "Math",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "notes",
+              "children": [
+                {
+                  "key": "fcu8fboz5su1737pwjilgy2",
+                  "title": "Estimation",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "n6dtupelbob3fmye1k7dmdc",
+                  "title": "Intersection",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "y11h5ehmldz95c69bkfs9wd",
+                  "title": "Neural",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "vii2cgr7l8zgh73arppawjj",
+                  "title": "Optimation",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "0z1szncf8gnkpdsjr7swohe",
+                  "title": "Probability",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "p68jmoyvomo20mzcm4h9wdx",
+                  "title": "Reparameterization",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "oujer25jxrj7iendw09kk97",
+                  "title": "Sampling",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "6uwq3kg5mg9cjtykwgq21op",
+                  "title": "Tensor",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "skbhp29pbdk24509du459z4",
+              "title": "Nerf",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "notes",
+              "children": [
+                {
+                  "key": "2s47zs12qkxyi811jxngpkg",
+                  "title": "(CVPR 2023)BundleSDF",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "pqva7enkkoyibjt5hu0ck5d",
+                  "title": "(IROS 2021)BundleTrack",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "nk3svrsxa5p3t7b9735vi0p",
+                  "title": "(CVPR 2023)Co-SLAM",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "kqeibw6dou04i23gpq0a6xz",
+                  "title": "(CVPR 2022)DVGO",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "xtf93mj87c4qtxiwhy0n05s",
+                  "title": "(arXiv 2023)ESLAM",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "a62aqbfjz554c4m7d1q6uqh",
+                  "title": "(arXiv 2023)Factored NeRF",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "4z2cgx4saipiowzsb9mppb0",
+                  "title": "(arXiv 2023)H2-Mapping",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "fc90yspviljvmpn2g0cm3pg",
+                  "title": "(TOG 2022)Instrant-NGP",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "9ks5kdmqk1x9qa1hbjjlvki",
+                  "title": "(TOG 2022)LaplacianFusion",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "pxuerg9795rt9xrw9mx316m",
+                  "title": "(arXiv 2023)MIPS-Fusion",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "l0bigdv7likf6shofetyp3x",
+                  "title": "(ICCV 2021)Mip-NeRF",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "4dcgqbu9noci3sop0jp1oow",
+                  "title": "(NeurIPS 2021)NSVF",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "fotztbzev0ihniie0tinw0i",
+                  "title": "(TOG 2019)Neural Importance Sampling",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "mpbpv7gcvdoj6p6pvkj7ssk",
+                  "title": "(CVPR 2021)Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "1qz9y5kpfbj6v4jkjtql1r4",
+                  "title": "(CVPR 2022)Neural rgb-d surface reconstruction",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "3k3t775l4vkkkfkoi2l7gqv",
+                  "title": "(NeurIPS 2021)Neus",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "a4b2n4a87dvx6f4o1ffs6ou",
+                  "title": "(CVPR 2022)Nice-SLAM",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "3krdcxaac34zq2bxe0sgs8s",
+                  "title": "(CVPR 2022 Oral)Point-NeRF",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "1iheu3srvfgb8rzfeqnn0mo",
+                  "title": "Point-SLAM",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "60dx3g7g8bkl9m078xuvg2z",
+                  "title": "(CVPR 2023)RoDynRF",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "2v8vhzl2tt0ufr39z47qpea",
+                  "title": "(ISMAR 2022)Vox-Fusion",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "vb7zjwcpb9q5o909fn5bqs8",
+                  "title": "(CVPR 2021)iMAP",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "edqeb5cnhi0d73qsrwxnbe3",
+                  "title": "(RSS 2022)iSDF",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "7vmgfpo3ix8g6rcvrzefrjk",
+                  "title": "(CVPR 2023)vMap",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "xg7qa72kkuq1elnh2ewtsqv",
+              "title": "Review",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "notes",
+              "children": []
+            },
+            {
+              "key": "j7tqeeapapgd6hppaq1fg1j",
+              "title": "SLAM",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "notes",
+              "children": [
+                {
+                  "key": "mkc8quvd22o2r348z4cn6uo",
+                  "title": "(arXiv 2023)Deflow",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "1u6xftftee3pqitwfqhu6so",
+                  "title": "(ICRA 2021)DroidSLAM",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "ij1bcsydrxj9siy5ra68zkf",
+                  "title": "(ICRA 2022)Flow Supervised Neural Radiance Fields for Static-Dynamic Decomposition",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "948bp243pizxum99x3gqy46",
+                  "title": "(arXiv 2023)RGB-D-Inertial SLAM in Indoor Dynamic Environments with Long-term LargeOcclusion",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "wk53ujpe8mnudzyumw03318",
+                  "title": "SobolevFusio",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "4aathyit6ngqct38phpftc6",
+                  "title": "(ICRA 2021)Towards Real-time Semantic RGB-D SLAM in Dynamic Environments",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                },
+                {
+                  "key": "bb4x1kolw3pxntlwpoynkim",
+                  "title": "(TRO 2018)VINS-mono",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "notes",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "23guxtui1tmgknx7ea3qh65",
+              "title": "Writing",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "notes",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "9rgzbgkb65netbhrh58dxnz",
+          "title": "Tools",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "notes",
+          "children": [
+            {
+              "key": "dsmxalv3yb4f42lc30b9sb5",
+              "title": "Arch",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "notes",
+              "children": []
+            },
+            {
+              "key": "v24khwxmethglduhhjoofzd",
+              "title": "Openai",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "notes",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "3w8ufj0ddqin6wp485hfdsg": null,
+    "hhz8q9pblj7dmva0w1jijb8": "3w8ufj0ddqin6wp485hfdsg",
+    "t4n31hepmpw2zrggkssnega": "hhz8q9pblj7dmva0w1jijb8",
+    "wqufyayjqxum0qzydce4kti": "hhz8q9pblj7dmva0w1jijb8",
+    "fcu8fboz5su1737pwjilgy2": "wqufyayjqxum0qzydce4kti",
+    "n6dtupelbob3fmye1k7dmdc": "wqufyayjqxum0qzydce4kti",
+    "y11h5ehmldz95c69bkfs9wd": "wqufyayjqxum0qzydce4kti",
+    "vii2cgr7l8zgh73arppawjj": "wqufyayjqxum0qzydce4kti",
+    "0z1szncf8gnkpdsjr7swohe": "wqufyayjqxum0qzydce4kti",
+    "p68jmoyvomo20mzcm4h9wdx": "wqufyayjqxum0qzydce4kti",
+    "oujer25jxrj7iendw09kk97": "wqufyayjqxum0qzydce4kti",
+    "6uwq3kg5mg9cjtykwgq21op": "wqufyayjqxum0qzydce4kti",
+    "skbhp29pbdk24509du459z4": "hhz8q9pblj7dmva0w1jijb8",
+    "2s47zs12qkxyi811jxngpkg": "skbhp29pbdk24509du459z4",
+    "pqva7enkkoyibjt5hu0ck5d": "skbhp29pbdk24509du459z4",
+    "nk3svrsxa5p3t7b9735vi0p": "skbhp29pbdk24509du459z4",
+    "kqeibw6dou04i23gpq0a6xz": "skbhp29pbdk24509du459z4",
+    "xtf93mj87c4qtxiwhy0n05s": "skbhp29pbdk24509du459z4",
+    "a62aqbfjz554c4m7d1q6uqh": "skbhp29pbdk24509du459z4",
+    "4z2cgx4saipiowzsb9mppb0": "skbhp29pbdk24509du459z4",
+    "fc90yspviljvmpn2g0cm3pg": "skbhp29pbdk24509du459z4",
+    "9ks5kdmqk1x9qa1hbjjlvki": "skbhp29pbdk24509du459z4",
+    "pxuerg9795rt9xrw9mx316m": "skbhp29pbdk24509du459z4",
+    "l0bigdv7likf6shofetyp3x": "skbhp29pbdk24509du459z4",
+    "4dcgqbu9noci3sop0jp1oow": "skbhp29pbdk24509du459z4",
+    "fotztbzev0ihniie0tinw0i": "skbhp29pbdk24509du459z4",
+    "mpbpv7gcvdoj6p6pvkj7ssk": "skbhp29pbdk24509du459z4",
+    "1qz9y5kpfbj6v4jkjtql1r4": "skbhp29pbdk24509du459z4",
+    "3k3t775l4vkkkfkoi2l7gqv": "skbhp29pbdk24509du459z4",
+    "a4b2n4a87dvx6f4o1ffs6ou": "skbhp29pbdk24509du459z4",
+    "3krdcxaac34zq2bxe0sgs8s": "skbhp29pbdk24509du459z4",
+    "1iheu3srvfgb8rzfeqnn0mo": "skbhp29pbdk24509du459z4",
+    "60dx3g7g8bkl9m078xuvg2z": "skbhp29pbdk24509du459z4",
+    "2v8vhzl2tt0ufr39z47qpea": "skbhp29pbdk24509du459z4",
+    "vb7zjwcpb9q5o909fn5bqs8": "skbhp29pbdk24509du459z4",
+    "edqeb5cnhi0d73qsrwxnbe3": "skbhp29pbdk24509du459z4",
+    "7vmgfpo3ix8g6rcvrzefrjk": "skbhp29pbdk24509du459z4",
+    "xg7qa72kkuq1elnh2ewtsqv": "hhz8q9pblj7dmva0w1jijb8",
+    "j7tqeeapapgd6hppaq1fg1j": "hhz8q9pblj7dmva0w1jijb8",
+    "mkc8quvd22o2r348z4cn6uo": "j7tqeeapapgd6hppaq1fg1j",
+    "1u6xftftee3pqitwfqhu6so": "j7tqeeapapgd6hppaq1fg1j",
+    "ij1bcsydrxj9siy5ra68zkf": "j7tqeeapapgd6hppaq1fg1j",
+    "948bp243pizxum99x3gqy46": "j7tqeeapapgd6hppaq1fg1j",
+    "wk53ujpe8mnudzyumw03318": "j7tqeeapapgd6hppaq1fg1j",
+    "4aathyit6ngqct38phpftc6": "j7tqeeapapgd6hppaq1fg1j",
+    "bb4x1kolw3pxntlwpoynkim": "j7tqeeapapgd6hppaq1fg1j",
+    "23guxtui1tmgknx7ea3qh65": "hhz8q9pblj7dmva0w1jijb8",
+    "9rgzbgkb65netbhrh58dxnz": "3w8ufj0ddqin6wp485hfdsg",
+    "dsmxalv3yb4f42lc30b9sb5": "9rgzbgkb65netbhrh58dxnz",
+    "v24khwxmethglduhhjoofzd": "9rgzbgkb65netbhrh58dxnz"
+  },
+  "notesLabelById": {
+    "3w8ufj0ddqin6wp485hfdsg": "Pub",
+    "hhz8q9pblj7dmva0w1jijb8": "Doctor",
+    "t4n31hepmpw2zrggkssnega": "English",
+    "wqufyayjqxum0qzydce4kti": "Math",
+    "fcu8fboz5su1737pwjilgy2": "Estimation",
+    "n6dtupelbob3fmye1k7dmdc": "Intersection",
+    "y11h5ehmldz95c69bkfs9wd": "Neural",
+    "vii2cgr7l8zgh73arppawjj": "Optimation",
+    "0z1szncf8gnkpdsjr7swohe": "Probability",
+    "p68jmoyvomo20mzcm4h9wdx": "Reparameterization",
+    "oujer25jxrj7iendw09kk97": "Sampling",
+    "6uwq3kg5mg9cjtykwgq21op": "Tensor",
+    "skbhp29pbdk24509du459z4": "Nerf",
+    "2s47zs12qkxyi811jxngpkg": "(CVPR 2023)BundleSDF",
+    "pqva7enkkoyibjt5hu0ck5d": "(IROS 2021)BundleTrack",
+    "nk3svrsxa5p3t7b9735vi0p": "(CVPR 2023)Co-SLAM",
+    "kqeibw6dou04i23gpq0a6xz": "(CVPR 2022)DVGO",
+    "xtf93mj87c4qtxiwhy0n05s": "(arXiv 2023)ESLAM",
+    "a62aqbfjz554c4m7d1q6uqh": "(arXiv 2023)Factored NeRF",
+    "4z2cgx4saipiowzsb9mppb0": "(arXiv 2023)H2-Mapping",
+    "fc90yspviljvmpn2g0cm3pg": "(TOG 2022)Instrant-NGP",
+    "9ks5kdmqk1x9qa1hbjjlvki": "(TOG 2022)LaplacianFusion",
+    "pxuerg9795rt9xrw9mx316m": "(arXiv 2023)MIPS-Fusion",
+    "l0bigdv7likf6shofetyp3x": "(ICCV 2021)Mip-NeRF",
+    "4dcgqbu9noci3sop0jp1oow": "(NeurIPS 2021)NSVF",
+    "fotztbzev0ihniie0tinw0i": "(TOG 2019)Neural Importance Sampling",
+    "mpbpv7gcvdoj6p6pvkj7ssk": "(CVPR 2021)Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes",
+    "1qz9y5kpfbj6v4jkjtql1r4": "(CVPR 2022)Neural rgb-d surface reconstruction",
+    "3k3t775l4vkkkfkoi2l7gqv": "(NeurIPS 2021)Neus",
+    "a4b2n4a87dvx6f4o1ffs6ou": "(CVPR 2022)Nice-SLAM",
+    "3krdcxaac34zq2bxe0sgs8s": "(CVPR 2022 Oral)Point-NeRF",
+    "1iheu3srvfgb8rzfeqnn0mo": "Point-SLAM",
+    "60dx3g7g8bkl9m078xuvg2z": "(CVPR 2023)RoDynRF",
+    "2v8vhzl2tt0ufr39z47qpea": "(ISMAR 2022)Vox-Fusion",
+    "vb7zjwcpb9q5o909fn5bqs8": "(CVPR 2021)iMAP",
+    "edqeb5cnhi0d73qsrwxnbe3": "(RSS 2022)iSDF",
+    "7vmgfpo3ix8g6rcvrzefrjk": "(CVPR 2023)vMap",
+    "xg7qa72kkuq1elnh2ewtsqv": "Review",
+    "j7tqeeapapgd6hppaq1fg1j": "SLAM",
+    "mkc8quvd22o2r348z4cn6uo": "(arXiv 2023)Deflow",
+    "1u6xftftee3pqitwfqhu6so": "(ICRA 2021)DroidSLAM",
+    "ij1bcsydrxj9siy5ra68zkf": "(ICRA 2022)Flow Supervised Neural Radiance Fields for Static-Dynamic Decomposition",
+    "948bp243pizxum99x3gqy46": "(arXiv 2023)RGB-D-Inertial SLAM in Indoor Dynamic Environments with Long-term LargeOcclusion",
+    "wk53ujpe8mnudzyumw03318": "SobolevFusio",
+    "4aathyit6ngqct38phpftc6": "(ICRA 2021)Towards Real-time Semantic RGB-D SLAM in Dynamic Environments",
+    "bb4x1kolw3pxntlwpoynkim": "(TRO 2018)VINS-mono",
+    "23guxtui1tmgknx7ea3qh65": "Writing",
+    "9rgzbgkb65netbhrh58dxnz": "Tools",
+    "dsmxalv3yb4f42lc30b9sb5": "Arch",
+    "v24khwxmethglduhhjoofzd": "Openai"
+  }
+}

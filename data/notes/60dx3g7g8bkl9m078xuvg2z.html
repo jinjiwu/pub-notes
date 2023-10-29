@@ -1,0 +1,38 @@
+<h1 id="cvpr-2023rodynrf">(CVPR 2023)RoDynRF<a aria-hidden="true" class="anchor-heading icon-link" href="#cvpr-2023rodynrf"></a></h1>
+<p>RoDynRF： Robust Dynamic Radiance Fields</p>
+<p><img src="/pub-notes/assets/doctor/RoDynRF_fig2.png" alt="系统架构" style=""></p>
+<ol>
+<li>同时重建静态场景nerf和动态场景nerf</li>
+<li>不要求相机位姿和相机内参</li>
+<li>网络设计和损失设计改进位姿估计和动态nerf重建</li>
+<li>在一些困难数据集上也可以正常估计相机位姿，而传统的sfm会失败.</li>
+</ol>
+<h2 id="method">Method<a aria-hidden="true" class="anchor-heading icon-link" href="#method"></a></h2>
+<h3 id="静态重建和相机位姿估计">静态重建和相机位姿估计<a aria-hidden="true" class="anchor-heading icon-link" href="#静态重建和相机位姿估计"></a></h3>
+<p><img src="/pub-notes/assets/doctor/RoDynRF_fig3.png" alt="Loss" style=""></p>
+<ol>
+<li>场景划分。分为静态区域和动态区域，使用不同的<strong>显示</strong>神经体素网格表示，<span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi mathvariant="normal">V</mi><mi>s</mi></msup></mrow><annotation encoding="application/x-tex">\mathrm{V}^s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">V</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">s</span></span></span></span></span></span></span></span></span></span></span></span> 与 <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi mathvariant="normal">V</mi><mi>s</mi></msup></mrow><annotation encoding="application/x-tex">\mathrm{V}^s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathrm" style="margin-right:0.01389em;">V</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">s</span></span></span></span></span></span></span></span></span></span></span></span> 。</li>
+<li>动态区域分割。利用Mask R-CNN和光流法得到的极线距离阈值约束，得到运动物体的掩码。</li>
+<li>coarse-to-fine静态场景重建。同时优化输入帧的相机位姿和共享的焦距，使用coarse-to-fine的策略优化静态场景的表示。</li>
+<li>末期视角方向条件。在color mlp的最后一层才混合视角方向。优化时绕过神经体素网格，直接学习视角方向到输出采样颜色的映射函数。</li>
+<li>损失函数。光度损失
+<ol>
+<li>重投影损失。像素体渲染得到3d点，投影，RAFT寻找对应关系。</li>
+<li>视差损失。对应点体渲染得到3d点对，计算z差</li>
+<li>单目深度损失。MiDaSv2.1估计出未知尺度和平移的深度图，约束渲染的深度。</li>
+<li>优化方法。模拟退火算法，光流估计和深度图估计可能不准确，只在训练的初期参与指导。</li>
+</ol>
+</li>
+</ol>
+<h3 id="动态nerf">动态nerf<a aria-hidden="true" class="anchor-heading icon-link" href="#动态nerf"></a></h3>
+<ol>
+<li>光度损失</li>
+<li>场景流损失。为了得到3d点的运动，引入了场景流mlp来补偿3d运动。
+<ol>
+<li>场景流mlp预测的点和形变mlp预测的点的重投影误差、视差、单目深度损失。</li>
+<li>正则化损失。</li>
+<li>mask损失。</li>
+</ol>
+</li>
+<li>线性组合。将静态损失和动态损失线性组合起来。</li>
+</ol>

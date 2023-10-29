@@ -1,0 +1,69 @@
+<h1 id="tog-2022instrant-ngp">(TOG 2022)Instrant-NGP<a aria-hidden="true" class="anchor-heading icon-link" href="#tog-2022instrant-ngp"></a></h1>
+<p>Instant neural graphics primitives with a multiresolution hash encoding</p>
+<p><img src="/pub-notes/assets/doctor/iNGP_fig3.png" alt="overview" style=""></p>
+<blockquote>
+<p>Pareto optimum: </p>
+</blockquote>
+<h2 id="advantages">Advantages<a aria-hidden="true" class="anchor-heading icon-link" href="#advantages"></a></h2>
+<ol>
+<li></li>
+</ol>
+<h2 id="background">Background<a aria-hidden="true" class="anchor-heading icon-link" href="#background"></a></h2>
+<p><strong>高维空间编码</strong> </p>
+<ul>
+<li>将输入编码到高维空间，可以使得数据线性可分。可以使用one-hot和kernel trick</li>
+<li>输入编码对循环神经网络中的注意力机制也有用</li>
+</ul>
+<p><strong>输入编码方法</strong></p>
+<ol>
+<li>frequency encodings. </li>
+<li>one-blob encoding. </li>
+<li>parametric encodings. 将可训练的参数放在辅助的数据结构中，空间换时间。
+<ul>
+<li>tree。 
+<ul>
+<li>自适应性。</li>
+<li>引入了额外的计算成本。</li>
+</ul>
+</li>
+<li>dense grid。
+<ul>
+<li>浪费空间。</li>
+<li>coarse-to-fine。由于自然场景的平滑性，不同的情况使用不同的level.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>sparse parametric encodings.
+<ul>
+<li>hash grid</li>
+</ul>
+</li>
+</ol>
+<h2 id="method">Method<a aria-hidden="true" class="anchor-heading icon-link" href="#method"></a></h2>
+<ol>
+<li>哈希函数。空间哈希函数</li>
+<li>Implicit hash collision resolution. 
+<ul>
+<li>不同level同时发生碰撞的概率很低</li>
+<li>不同点的对梯度贡献的权值也不一样</li>
+</ul>
+</li>
+</ol>
+<h2 id="accelerated-nerf-ray-marching">Accelerated NERF Ray Marching<a aria-hidden="true" class="anchor-heading icon-link" href="#accelerated-nerf-ray-marching"></a></h2>
+<ol>
+<li>步长指数增长。对于大的场景，光线上采样点的数量是对数增长，基本不会造成计算量</li>
+<li>占据网格。使用Occupancy Grids跳过空格子。
+<ul>
+<li>使用。有x和步长delta确定查询第几个网格（网格边长大于x的最小网格）</li>
+<li>更新。训练过程中更新占据网格，每16次训练更新一次。额外使用相同结构的网格记录密度值
+<ul>
+<li>网格单元中密度值以0.95衰减</li>
+<li>随机采样M个候选单元，密度值设为当前值和nerf密度值的最大值</li>
+<li>通过阈值t=0.01<em>1024</em>sqrt(3)更新占据网格。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>数据压缩。将采样数据压缩到GPU缓存中，高效的执行。</li>
+</ol>
